@@ -1,0 +1,10 @@
+name = f_theme
+description = Tema instalado
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = theme_responsive_blog_settings
+project path = sites/all/modules/features
