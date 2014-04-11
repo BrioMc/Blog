@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_colocacion_bloques feature.
+ */
+
+include_once 'f_colocacion_bloques.features.inc';

@@ -1,0 +1,10 @@
+name = f_colocacion_bloques
+core = 7.x
+package = Features
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = views
+features[context][] = colocacion_bloques
+features[ctools][] = context:context:3
+features[features_api][] = api:2
+project path = sites/all/modules/features
